@@ -1,0 +1,1 @@
+Add your own optimized .webp/.jpg store and product photographs here. Then update the gallery backgrounds in styles.css.
