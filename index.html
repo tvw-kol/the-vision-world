@@ -11,8 +11,9 @@
   <meta property="og:description" content="Curated eyewear, premium optical lenses and personalised optical services in Minto Park, Kolkata.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://thevisionworld.in/">
-  <meta property="og:image" content="https://thevisionworld.in/assets/og-image.svg">
-  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:image" content="https://thevisionworld.in/assets/the-vision-world-logo.png">
+  <link rel="icon" href="/assets/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/the-vision-world-logo.png">
   <title>The Vision World — Boutique Optical Studio | Kolkata</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,6 +26,10 @@
     "name":"The Vision World",
     "url":"https://thevisionworld.in/",
     "telephone":"+919830187170",
+    "logo":"https://thevisionworld.in/assets/the-vision-world-logo.png",
+    "image":"https://thevisionworld.in/assets/the-vision-world-logo.png",
+    "areaServed":"Kolkata",
+    "hasMap":"https://www.google.com/maps/search/?api=1&query=The+Vision+World+228A+AJC+Bose+Road+Kolkata",
     "address":{
       "@type":"PostalAddress",
       "streetAddress":"Ground Floor, Landmark Building, 228A, AJC Bose Road, Minto Park, Beck Bagan, Ballygunge",
@@ -39,21 +44,43 @@
     "sameAs":[]
   }
   </script>
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '948631637721387');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=948631637721387&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Where is The Vision World located?","acceptedAnswer":{"@type":"Answer","text":"The Vision World is at Ground Floor, Landmark Building, 228A AJC Bose Road, Minto Park, Beck Bagan, Ballygunge, Kolkata, West Bengal 700020."}},
+{"@type":"Question","name":"What are The Vision World's opening hours?","acceptedAnswer":{"@type":"Answer","text":"The Vision World is open Monday through Saturday from 11:00 AM to 8:00 PM and is closed on Sunday."}},
+{"@type":"Question","name":"How can I enquire about an eyewear model?","acceptedAnswer":{"@type":"Answer","text":"Browse the Eyewear Collection and use the Enquire button for the model you are interested in to contact The Vision World on WhatsApp."}}
+]}
+</script>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to content</a>
 <header class="site-header" id="top">
-  <a class="brand" href="#top" aria-label="The Vision World home">
-    <span class="brand-mark">VW</span>
-    <span><strong>THE VISION WORLD</strong><small>OPTICAL STUDIO · KOLKATA</small></span>
-  </a>
+  <a class="brand" href="#top" aria-label="The Vision World home"><img src="/assets/the-vision-world-logo.png" alt="The Vision World logo"></a>
   <nav class="nav" aria-label="Primary navigation">
-    <a href="#about">About</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+    <a href="#about">About</a><a href="#services">Services</a><a href="#eyewear">Eyewear</a><a href="#gallery">Gallery</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
   </nav>
   <a class="header-cta" href="https://wa.me/919830187170?text=Hello%20The%20Vision%20World%2C%20I%27d%20like%20to%20enquire%20about%20your%20optical%20services." target="_blank" rel="noopener">WhatsApp</a>
   <button class="menu" aria-label="Open menu" aria-expanded="false">☰</button>
 </header>
 
-<main>
+<main id="main-content">
 <section class="hero">
   <div class="hero-copy">
     <p class="eyebrow">MINTO PARK · KOLKATA</p>
@@ -63,7 +90,7 @@
       <a class="button dark" href="https://wa.me/919830187170?text=Hello%20The%20Vision%20World%2C%20I%27d%20like%20to%20book%20an%20optical%20consultation." target="_blank" rel="noopener">Enquire on WhatsApp ↗</a>
       <a class="button light" href="#contact">Visit the store</a>
     </div>
-    <div class="hero-meta"><span>Since 2002</span><span>•</span><span>Mon–Sat · 11am–8pm</span></div>
+    <div class="hero-meta"><span>Minto Park · Kolkata</span><span>•</span><span>Mon–Sat · 11am–8pm</span></div>
   </div>
   <div class="hero-visual">
     <div class="hero-card">
@@ -95,13 +122,28 @@
   </div>
 </section>
 
+
+<section class="catalog section" id="eyewear">
+  <div class="catalog-head">
+    <div><div class="section-label">03 — EYEWEAR COLLECTION</div><h2>Explore our <em>curated frames.</em></h2><p class="catalog-count" id="catalog-count"></p></div>
+    <div class="catalog-tools"><p>Search by model number or browse by type.</p><label class="search-box"><span aria-hidden="true">⌕</span><input id="catalog-search" type="search" placeholder="Search model number" aria-label="Search eyewear by model number" autocomplete="off"></label></div>
+  </div>
+  <div class="catalog-filters" role="group" aria-label="Filter eyewear">
+    <button class="filter active" type="button" data-filter="all">All</button>
+    <button class="filter" type="button" data-filter="optical">Optical</button>
+    <button class="filter" type="button" data-filter="sun">Sunglasses</button>
+  </div>
+  <div class="catalog-grid" id="catalog-grid" aria-live="polite"></div>
+  <p class="catalog-note">Availability can change. Contact the store to confirm stock, colour and prescription suitability.</p>
+</section>
+
 <section class="statement">
   <div><p class="eyebrow">THE VISION WORLD</p><h2>Good eyewear should feel<br><em>distinctly yours.</em></h2></div>
   <a href="#contact" class="circle-link">Start<br>here ↗</a>
 </section>
 
 <section class="gallery section" id="gallery">
-  <div class="gallery-head"><div class="section-label">03 — GALLERY</div><p>Replace the sample tiles below with your own store and product photography.</p></div>
+  <div class="gallery-head"><div class="section-label">03 — GALLERY</div><p>A closer look at the eyewear experience. Store photography can be added here as it becomes available.</p></div>
   <div class="gallery-grid">
     <button class="gallery-item item-1" data-caption="The Vision World — Minto Park"><span>Store</span></button>
     <button class="gallery-item item-2" data-caption="Curated eyewear"><span>Eyewear</span></button>
@@ -112,12 +154,20 @@
 </section>
 
 <section class="reviews section">
-  <div class="section-label">04 — CUSTOMER NOTES</div>
+  <div class="section-label">04 — CUSTOMER REVIEWS</div>
   <div class="review-wrap">
-    <div><div class="stars">★★★★★</div><h2>Personal service.<br><em>Long-term relationships.</em></h2></div>
-    <blockquote>“They understand your taste and personality and accordingly recommend glasses you would like. The knowledge and service are exceptional.”<cite>— Customer review</cite></blockquote>
+    <div><div class="stars" aria-hidden="true">★★★★★</div><h2>See what our<br><em>customers say.</em></h2></div>
+    <div class="review-copy"><p>We value long-term relationships and personal service. Read the latest customer feedback on our Google Business Profile.</p><a class="button dark" href="https://www.google.com/search?q=The+Vision+World+228A+AJC+Bose+Road+Kolkata" target="_blank" rel="noopener noreferrer">Read Google reviews ↗</a></div>
   </div>
-  <a class="text-link" href="https://www.google.com/search?q=The+Vision+World+228A+AJC+Bose+Road+Kolkata" target="_blank" rel="noopener">See more customer reviews ↗</a>
+</section>
+
+<section class="faq section" id="faq">
+  <div class="section-label">05 — FAQ</div>
+  <div class="faq-list">
+    <details><summary>Where is The Vision World located?</summary><p>Ground Floor, Landmark Building, 228A AJC Bose Road, Minto Park, Beck Bagan, Ballygunge, Kolkata, West Bengal 700020.</p></details>
+    <details><summary>What are the opening hours?</summary><p>Monday to Saturday, 11:00 AM to 8:00 PM. Sunday is closed.</p></details>
+    <details><summary>How do I enquire about a frame?</summary><p>Find the model in our Eyewear Collection and select “Enquire”. WhatsApp will open with the model number already included.</p></details>
+  </div>
 </section>
 
 <section class="contact section" id="contact">
@@ -139,10 +189,24 @@
 </section>
 </main>
 
-<footer><div class="footer-brand">THE VISION WORLD</div><p>© 2026 The Vision World. All rights reserved.</p><a href="#top">Back to top ↑</a></footer>
+<footer><div class="footer-brand">THE VISION WORLD</div><p>© 2026 The Vision World. All rights reserved.</p><div class="footer-links"><a href="/privacy.html">Privacy</a><a href="#top">Back to top ↑</a></div></footer>
 
+<div class="product-modal" id="product-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="product-modal-title">
+  <div class="product-modal-backdrop" data-close-product></div>
+  <div class="product-modal-panel">
+    <button class="modal-close" type="button" aria-label="Close product details" data-close-product>×</button>
+    <div class="product-modal-image"><img id="product-modal-img" src="" alt=""></div>
+    <div class="product-modal-info">
+      <p class="eyebrow">THE VISION WORLD · EYEWEAR</p>
+      <h2 id="product-modal-title"></h2>
+      <p>Interested in this model? Contact the store to confirm availability, colour options, price and prescription suitability.</p>
+      <a id="product-modal-wa" class="button dark" href="#" target="_blank" rel="noopener noreferrer">Enquire on WhatsApp ↗</a>
+    </div>
+  </div>
+</div>
 <div class="lightbox" aria-hidden="true"><button class="close" aria-label="Close image">×</button><div class="lightbox-content"><div class="lightbox-art"></div><p></p></div></div>
 <a class="floating-wa" href="https://wa.me/919830187170?text=Hello%20The%20Vision%20World" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WA</a>
+<script>window.TVWCatalog=[{"model":"AM0525S-003","file":"AM0525S-003.jpg"},{"model":"BB0105O-001","file":"BB0105O-001.jpg"},{"model":"BB0310SK-002","file":"BB0310SK-002.jpg"},{"model":"BB0342O-005","file":"BB0342O-005.jpg"},{"model":"BB0342O-006","file":"BB0342O-006.jpg"},{"model":"BB0342O-008","file":"BB0342O-008.jpg"},{"model":"BB0342O-018","file":"BB0342O-018.jpg"},{"model":"BB0466S-001","file":"BB0466S-001.jpg"},{"model":"BB0482O-002","file":"BB0482O-002.jpg"},{"model":"BB0483O-001","file":"BB0483O-001.jpg"},{"model":"BB0483O-004","file":"BB0483O-004.jpg"},{"model":"BB0487S-004","file":"BB0487S-004.jpg"},{"model":"BB0490O-001","file":"BB0490O-001.jpg"},{"model":"BV1005S-001","file":"BV1005S-001.jpg"},{"model":"BV1324O-001","file":"BV1324O-001.jpg"},{"model":"BV1324O-005","file":"BV1324O-005.jpg"},{"model":"BV1363S-001","file":"BV1363S-001.jpg"},{"model":"BV1363S-005","file":"BV1363S-005.jpg"},{"model":"BV1386S-006","file":"BV1386S-006.jpg"},{"model":"BV1400S-001","file":"BV1400S-001.jpg"},{"model":"BV1403O-001","file":"BV1403O-001.jpg"},{"model":"BV1418S-001","file":"BV1418S-001.jpg"},{"model":"BV1420O-002","file":"BV1420O-002.jpg"},{"model":"BV1422SA-004","file":"BV1422SA-004.jpg"},{"model":"BV1442S-004","file":"BV1442S-004.jpg"},{"model":"BV1443O-001","file":"BV1443O-001.jpg"},{"model":"BV1462O-006","file":"BV1462O-006.jpg"},{"model":"BV1462O-007","file":"BV1462O-007.jpg"},{"model":"DU0117O-005","file":"DU0117O-005.jpg"},{"model":"DU0117S-002","file":"DU0117S-002.jpg"},{"model":"DU0118S-004","file":"DU0118S-004.jpg"},{"model":"DU0120S-001","file":"DU0120S-001.jpg"},{"model":"DU0120S-004","file":"DU0120S-004.jpg"},{"model":"GG1117ON-005","file":"GG1117ON-005.jpg"},{"model":"GG1221O-004","file":"GG1221O-004.jpg"},{"model":"GG1343O-009","file":"GG1343O-009.jpg"},{"model":"GG1703O-003","file":"GG1703O-003.jpg"},{"model":"GG1703S-005","file":"GG1703S-005.jpg"},{"model":"GG1703S-007","file":"GG1703S-007.jpg"},{"model":"GG1933S-003","file":"GG1933S-003.jpg"},{"model":"GG1937S-003","file":"GG1937S-003.jpg"},{"model":"GG1938O-002","file":"GG1938O-002.jpg"},{"model":"GG1945O-004","file":"GG1945O-004.jpg"},{"model":"GG1981S-002","file":"GG1981S-002.jpg"},{"model":"GG1983O-003","file":"GG1983O-003.jpg"},{"model":"GG1983O-004","file":"GG1983O-004.jpg"},{"model":"GG1985S-005","file":"GG1985S-005.jpg"},{"model":"GG1989O-001","file":"GG1989O-001.jpg"},{"model":"GG1990O-005","file":"GG1990O-005.jpg"},{"model":"GG1991S-001","file":"GG1991S-001.jpg"},{"model":"GG1992O-004","file":"GG1992O-004.jpg"},{"model":"GG2025S-002","file":"GG2025S-002.jpg"},{"model":"GG2028O-001","file":"GG2028O-001.jpg"},{"model":"GG2028O-002","file":"GG2028O-002.jpg"},{"model":"GG2032S-001","file":"GG2032S-001.jpg"},{"model":"GG2032S-002","file":"GG2032S-002.jpg"},{"model":"GG2034O-001","file":"GG2034O-001.jpg"},{"model":"GG2039S-001","file":"GG2039S-001.jpg"},{"model":"GG2050O-001","file":"GG2050O-001.jpg"},{"model":"GG2052S-008","file":"GG2052S-008.jpg"},{"model":"GG2060O-001","file":"GG2060O-001.jpg"},{"model":"GG2066O-001","file":"GG2066O-001.jpg"},{"model":"GG2070O-001","file":"GG2070O-001.jpg"},{"model":"GG2108O-003","file":"GG2108O-003.jpg"},{"model":"GG2112O-002","file":"GG2112O-002.jpg"},{"model":"GG2112O-003","file":"GG2112O-003.jpg"},{"model":"GG2116S-001","file":"GG2116S-001.jpg"},{"model":"GG2119S-001","file":"GG2119S-001.jpg"},{"model":"GG2122S-001","file":"GG2122S-001.jpg"},{"model":"GG2129O-002","file":"GG2129O-002.jpg"},{"model":"GG2131O-005","file":"GG2131O-005.jpg"},{"model":"GG2131O-007","file":"GG2131O-007.jpg"},{"model":"GG2153S-002","file":"GG2153S-002.jpg"},{"model":"GG2163S-001","file":"GG2163S-001.jpg"},{"model":"GG2178S-003","file":"GG2178S-003.jpg"},{"model":"GG2182S-002","file":"GG2182S-002.jpg"},{"model":"GG2182S-004","file":"GG2182S-004.jpg"},{"model":"MB0355O-002","file":"MB0355O-002.jpg"},{"model":"MB0355O-005","file":"MB0355O-005.jpg"},{"model":"MB0399S-002","file":"MB0399S-002.jpg"},{"model":"MB0399S-004","file":"MB0399S-004.jpg"},{"model":"MB0430O-002","file":"MB0430O-002.jpg"},{"model":"MB0430O-003","file":"MB0430O-003.jpg"},{"model":"MB0431O-003","file":"MB0431O-003.jpg"},{"model":"MB0432S-001","file":"MB0432S-001.jpg"},{"model":"MB0458OL-009","file":"MB0458OL-009.jpg"},{"model":"MB0467OL-009","file":"MB0467OL-009.jpg"},{"model":"MB0469OL-001","file":"MB0469OL-001.jpg"},{"model":"MB0471O-001","file":"MB0471O-001.jpg"},{"model":"MB0478S-002","file":"MB0478S-002.jpg"},{"model":"MB0479S-001","file":"MB0479S-001.jpg"},{"model":"SL_737_MICA_THIN_OPT-001","file":"SL_737_MICA_THIN_OPT-001.jpg"},{"model":"SL_740","file":"SL_740.jpg"},{"model":"SL_83-004","file":"SL_83-004.jpg"},{"model":"SL_832","file":"SL_832.jpg"},{"model":"SL_842-002","file":"SL_842-002.jpg"},{"model":"SL_882-007","file":"SL_882-007.jpg"},{"model":"SL_884-001","file":"SL_884-001.jpg"},{"model":"SL_892-002","file":"SL_892-002.jpg"},{"model":"SL_M156-001","file":"SL_M156-001.jpg"},{"model":"SL_M157-002","file":"SL_M157-002.jpg"},{"model":"SL_M158-002","file":"SL_M158-002.jpg"},{"model":"SL_M172-002","file":"SL_M172-002.jpg"},{"model":"SL_M94-010","file":"SL_M94-010.jpg"}];</script>
 <script src="/script.js"></script>
 </body>
 </html>

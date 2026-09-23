@@ -2,6 +2,10 @@
 
 A lightweight, static, Vercel-ready website for The Vision World, Kolkata.
 
+## Production V5
+
+Includes 104 eyewear models, searchable catalogue, optical/sunglasses filters, product detail modal, WhatsApp model enquiries, Meta Pixel, accessibility improvements, FAQ, local-business structured data and a privacy page.
+
 ## Deploy on Vercel
 
 1. Create a GitHub repository named `the-vision-world`.
@@ -29,3 +33,12 @@ Address: Ground Floor, Landmark Building, 228A, AJC Bose Road, Minto Park, Beck 
 Hours: Monday–Saturday, 11:00 AM–8:00 PM; Sunday closed
 
 Review the exact business details, claims, logo and photography before publishing.
+
+## Meta Pixel
+
+Meta Pixel ID `948631637721387` is installed in `index.html` and tracks `PageView` on initial page load.
+
+
+## GitHub Pages
+
+This is also compatible with GitHub Pages because it is a static HTML/CSS/JS site. For a commercial production website, review the current terms of your chosen hosting provider before launch.
